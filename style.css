@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 275px;
+  width: 275px;
+  border-radius: 20px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.circle {
+  display: flex;
+  margin: 20px 0 20px 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 54%, 0.12);
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 10px;
+  height: 10px;
+  margin: auto;
+}
+
+.question {
+  color: #fff;
+  margin: 20px 20px 10px 20px;
+}
+
+.subtext {
+  color: hsl(217, 12%, 63%);
+  font-size: 10px;
+}
+
+.subtext {
+  margin: 5px 25px 5px 20px;
+}
+
+.rating-form {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-left: 20px;
+  width: 100%;
+}
+
+.rate {
+  margin: 10px 5px 0 0px;
+  color: hsl(217, 12%, 63%);
+  font-size: 10px;
+}
+
+.rate:hover {
+  background-color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  color: #fff;
+}
+
+.row-two {
+  grid-row: 2;
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  grid-column: 1 / span 5;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  font-size: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.row-two:active {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.thankyou {
+  margin: auto;
+  width: 100px;
+  margin-top: 30px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.thankcircle {
+  width: 120px;
+  border-radius: 20px;
+  height: 20px;
+  margin-left: 0;
+}
+
+.thanktext {
+  font-size: 5px;
+  color: hsl(25, 97%, 53%);
+  opacity: 0.7;
+  font-size: 8px;
+  margin: 0px 3px 0px 5px;
+}
+
+.thank-header {
+  margin: 0;
+}
+
+.thank-sub {
+  text-align: center;
+  font-size: 9px;
+}
